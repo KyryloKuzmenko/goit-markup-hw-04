@@ -313,10 +313,7 @@ img {
 }
 
 .person-icon-item,
-.footer-instagram-icon,
-.footer-twitter-icon,
-.footer-facebook-icon,
-.footer-linkedin-icon {
+.footer-social-icon {
   width: 40px;
   height: 40px;
 }
