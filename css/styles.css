@@ -434,7 +434,11 @@ img {
 .footer-icons {
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
+  /* margin-left: 120px; */
+}
+
+.footer-wrap {
+  margin-right: 120px;
 }
 
 .social-media-icons {
@@ -444,6 +448,7 @@ img {
 
 .page-footer {
   display: flex;
+  align-items: baseline;
 }
 
 .social-media {
@@ -457,6 +462,11 @@ img {
 
 .footer-icon {
   fill: #f4f4fd;
+}
+
+.footer-icon-link:focus,
+.footer-icon-link:hover {
+  background-color: #31d0aa;
 }
 
 /* /Footer section */
